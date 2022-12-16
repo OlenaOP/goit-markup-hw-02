@@ -15,9 +15,9 @@
 }
 
 body {
-  background-color: var(--dominant-white-color);
-  color: var(--main-text-dark-color);
-  font-family: var(--font-family);
+  background-color: var(--bacground-color);
+  color: var(--dark-color);
+  font-family: var(--font-family, sans-serif);
   font-weight: 400;
   font-size: 14px;
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .header-link {
-  font-family: var(--font-family);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -75,11 +75,11 @@ body {
 .header-link:hover,
 .header-link:focus {
   color: var(--text-color);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .header-contact {
-  font-family: var(--font-family);
+  font-family: inherit;
   font-weight: inherit;
   font-size: 16px;
   line-height: 1.5;
@@ -91,7 +91,7 @@ body {
 .header-contact:hover,
 .header-contact:focus {
   color: var(--primary-brand-color);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .current {
@@ -106,7 +106,7 @@ body {
 
 .hero-header {
   /* Header 1 */
-  font-family: var(--font-family);
+  font-family: inherit;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -115,7 +115,7 @@ body {
 }
 
 .hero-btn {
-  font-family: var(--font-family);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -141,17 +141,17 @@ body {
 /* ------------------Advantages section---------------- */
 .advantages-header {
   /* Header 3 */
-  font-family: var(--font-family);
+  font-family: inherit;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   /* NAVY BLUE */
-  color: var(--dark-color);
+  color: inherit;
 }
 
 .advantages-text {
   /* Body */
-  font-family: var(--font-family);
+  font-family: inherit;
   font-weight: inherit;
   font-size: 16px;
   line-height: 1.5;
@@ -163,13 +163,13 @@ body {
 /* ------------------What are we doing section---------------- */
 .section-header {
   /* Header 2 */
-  font-family: var(--font-family);
+  font-family: inherit;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--dark-color);
+  color: inherit;
 }
 
 /* ------------------Our Team section---------------- */
@@ -183,17 +183,17 @@ body {
 
 .team-header {
   /* Header 3 */
-  font-family: var(--font-family);
+  font-family: inherit;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   /* NAVY BLUE */
-  color: var(--dark-color);
+  color: inherit;
 }
 
 .team-text {
-  font-family: var(--font-family);
+  font-family: inherit;
   font-weight: inherit;
   font-size: 16px;
   line-height: 1.5;
@@ -212,7 +212,7 @@ body {
 }
 
 .footer-text {
-  font-family: var(--font-family);
+  font-family: inherit;
   font-weight: inherit;
   font-size: 16px;
   line-height: 1.5;
@@ -226,7 +226,7 @@ body {
 /* -----------------Portfolio button-------------- */
 .portfolio-btn {
   /* Button Text */
-  font-family: var(--font-family);
+  font-family: inherit;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -250,15 +250,15 @@ body {
 }
 
 .portfolio-project-header {
-  font-family: var(--font-family);
+  font-family: inherit;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   /* NAVY BLUE */
-  color: var(--dark-color);
+  color: inherit;
 }
 .portfolio-project-text {
-  font-family: var(--font-family);
+  font-family: inherit;
   font-weight: inherit;
   font-size: 16px;
   line-height: 1.5;
